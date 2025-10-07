@@ -1,5 +1,5 @@
 # Power-plan-switcher
-A super-lightweight background utility that automatically switches Windows power plans. Its purpose is to control CPU frequency in temperature- or noise-sensitive scenarios.
+A super-lightweight background utility that automatically switches Windows power plans. Its purpose is to control CPU frequency in temperature- or noise-sensitive scenarios.<br></br>
 这是一个超轻量自动切换windows电源的后台软件。目的是在温度或者噪音敏感场景控制cpu频率。<br></br>
 ### Five levels/五种档位
 - Disabled/停用
