@@ -29,7 +29,7 @@ powercfg /list
 ```
 
 #### Configure the software/配置软件
-1. Run the program (either the .py file or the executable in the folder).<br></br>运行程序(可以用py文件，也可以使用目录下的exe直接运行)<br></br>
+1. Run the program as administrator (either the .py file or the exe in the folder).<br></br>用管理员权限运行程序(可以用py文件，也可以使用目录下的exe运行)<br></br>
 2. Right-click the tray icon and choose Settings.<br></br>在系统托盘中右键小图标选择setting<br></br>
 3. Enter the plan GUID(s) and the processes whose CPU frequency you want the software to control.<br></br>填入guid和所需控制频率的进程
 ```
