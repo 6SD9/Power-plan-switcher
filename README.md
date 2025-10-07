@@ -7,8 +7,8 @@ A super-lightweight background utility that automatically switches Windows power
 - Medium frequency/中频率
 - Higher frequency/较高频率
 - Unlimited/无限制 <br></br>
-The system monitors all configured target processes that are running and selects the highest-priority power plan as the active plan.<br></br>
-系统会同时检测所有运行的目标进程选择最高等级的电源计划作为当前目标
+The system monitors all configured target processes that are running and selects the highest-priority power plan as the active plan. The saved GUIDs, processes, and other settings are stored in power_plan_config.json in the root directory.<br></br>
+注意：系统会同时检测所有运行的目标进程选择最高等级的电源计划作为当前目标。保存的guid、进程等内容会储存在根目录下的power_plan_config.json。
 
 ## Usage/使用
 #### Power plan “Disable Turbo Boost”/电源计划“关闭睿频”
