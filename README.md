@@ -29,10 +29,12 @@ powercfg /list
 ```
 
 #### Configure the software/配置软件
-1. 运行程序(可以用py文件，也可以使用目录下的exe直接运行)
-2. 在系统托盘中右键小图标选择setting
-3. 填入guid和所需控制频率的进程
+1. Run the program (either the .py file or the executable in the folder).<br></br>运行程序(可以用py文件，也可以使用目录下的exe直接运行)
+2. Right-click the tray icon and choose Settings.<br></br>在系统托盘中右键小图标选择setting
+3. Enter the plan GUID(s) and the processes whose CPU frequency you want the software to control.<br></br>填入guid和所需控制频率的进程
 ```
+Operation logic:
+The system monitors all configured target processes that are running and selects the highest-priority power plan as the current target.
 运行逻辑
 系统会同时检测所有运行的目标进程选择最高等级的电源计划作为当前目标
 ```
