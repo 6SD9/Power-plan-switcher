@@ -22,7 +22,7 @@ The system monitors all configured target processes that are running and selects
 2. Adjust the Maximum processor frequency, Processor power efficiency (class 1), and other processor frequency-related values to suit your needs.<br></br>调整处理器最大频率、第1类处理器电源效率和处理器最大频率的数值到自己的要求数值<br></br>
 3. Save<br></br>保存
 
-#### 获得电源计划的guid
+#### Get guid/获得电源计划的guid
 In a command prompt run:
 ```
 powercfg /list
